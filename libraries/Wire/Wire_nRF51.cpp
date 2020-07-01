@@ -299,7 +299,7 @@ void TwoWire::flush(void)
 }
 
 #if WIRE_INTERFACES_COUNT > 0
-TwoWire Wire(NRF_TWI1, PIN_WIRE_SDA, PIN_WIRE_SCL);
+TwoWire Wire(NRF_TWI0, PIN_WIRE_SDA, PIN_WIRE_SCL);
 #endif
 
 #endif
