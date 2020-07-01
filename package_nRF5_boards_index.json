@@ -1,12 +1,12 @@
 {
   "packages": [
     {
-      "name": "sandeepmistry",
-      "maintainer": "Sandeep Mistry",
-      "websiteURL": "https://github.com/sandeepmistry/arduino-nRF5",
-      "email": "sandeep.mistry@gmail.com",
+      "name": "bliptrip",
+      "maintainer": "Andrew Maule",
+      "websiteURL": "https://github.com/bliptrip/arduino-nRF5",
+      "email": "developer@bliptrip.net",
       "help": {
-        "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+        "online": "https://github.com/bliptrip/arduino-nRF5/issues"
       },
       "platforms": [
         {
@@ -15,9 +15,9 @@
           "version": "0.1.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.1.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.1.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.1.0.tar.gz",
           "checksum": "MD5:1825f6420104225f5fee11b467923b7d",
           "size": "591297",
@@ -27,12 +27,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -44,9 +44,9 @@
           "version": "0.2.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.2.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.2.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.2.0.tar.gz",
           "checksum": "MD5:1ed95ee9030e4ca1371665258a3cdee4",
           "size": "562847",
@@ -61,12 +61,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -78,9 +78,9 @@
           "version": "0.3.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.3.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.3.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.3.0.tar.gz",
           "checksum": "MD5:3308f42e982e96a7f4329524ef46f5f8",
           "size": "569306",
@@ -102,12 +102,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -119,9 +119,9 @@
           "version": "0.4.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.4.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.4.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.4.0.tar.gz",
           "checksum": "MD5:E82DA39642AB48492A9FEDE8159871F5",
           "size": "573440",
@@ -147,12 +147,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -164,9 +164,9 @@
           "version": "0.5.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.5.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.5.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.5.0.tar.gz",
           "checksum": "MD5:BC732D8377244913AA7556083965FAA0",
           "size": "575959",
@@ -194,12 +194,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -211,9 +211,9 @@
           "version": "0.5.1",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.5.1.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.5.1.tar.gz",
           "archiveFileName": "arduino-nRF52-0.5.1.tar.gz",
           "checksum": "MD5:02F963846158BBB4B3B69C78801D5FCB",
           "size": "576878",
@@ -241,12 +241,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -258,9 +258,9 @@
           "version": "0.6.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+            "online": "https://github.com/bliptrip/arduino-nRF5/issues"
           },
-          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.6.0.tar.gz",
+          "url": "https://github.com/bliptrip/arduino-nRF5/archive/0.6.0.tar.gz",
           "archiveFileName": "arduino-nRF52-0.6.0.tar.gz",
           "checksum": "MD5:edee8046e7f58bb06c466bb1c67ac02f",
           "size": "577994",
@@ -289,12 +289,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "bliptrip",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }
@@ -308,28 +308,28 @@
           "systems": [
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
               "size": "96372129",
               "checksum": "MD5:603bcce8e59683ac27054b3197a53254"
             },
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "size": "92811866",
               "checksum": "MD5:f88caac80b4444a17344f57ccb760b90"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "size": "92811866",
               "checksum": "MD5:f88caac80b4444a17344f57ccb760b90"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
               "size": "102981732",
               "checksum": "MD5:32d950225b6c7c886f6225c1fc578934"
@@ -342,28 +342,28 @@
           "systems": [
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-osx-0.10.0-dev-nrf5.tar.gz",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/openocd-osx-0.10.0-dev-nrf5.tar.gz",
               "archiveFileName": "openocd-osx-0.10.0-dev-nrf5.tar.gz",
               "size": "1345243",
               "checksum": "MD5:3ffaa4e7cd4b96770eec65002c5959e3"
             },
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "size": "3585042",
               "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "size": "3585042",
               "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-win32-0.10.0-dev-nrf5.tar.gz",
+              "url": "https://github.com/bliptrip/arduino-nRF5/releases/download/tools/openocd-win32-0.10.0-dev-nrf5.tar.gz",
               "archiveFileName": "openocd-win32-0.10.0-dev-nrf5.tar.gz",
               "size": "5498373",
               "checksum": "MD5:3acd3b08afda2bb09e75a0de5ac7c3cd"
