@@ -21,6 +21,13 @@
 #include "Arduino.h"
 #include "wiring_private.h"
 
+static Uart *pSerial = NULL;//Allows us to replace the default serial device used for invoking IRQ handler.
+static Uart *pDefaultSerial = NULL;//Allows us to replace the default serial device used for invoking IRQ handler.
+
+static void setSerial(Uart* Uart) {
+    pSerial = Uart;
+}
+
 Uart::Uart(NRF_UART_Type *_nrfUart, IRQn_Type _IRQn, uint8_t _pinRX, uint8_t _pinTX)
 {
   nrfUart = _nrfUart;
@@ -64,6 +71,8 @@ void Uart::begin(unsigned long baudrate)
 
 void Uart::begin(unsigned long baudrate, uint16_t /*config*/)
 {
+  setSerial(this);
+
   nrfUart->PSELTXD = uc_pinTX;
   nrfUart->PSELRXD = uc_pinRX;
 
@@ -163,6 +172,7 @@ void Uart::begin(unsigned long baudrate, uint16_t /*config*/)
   NVIC_ClearPendingIRQ(IRQn);
   NVIC_SetPriority(IRQn, 3);
   NVIC_EnableIRQ(IRQn);
+
 }
 
 void Uart::end()
@@ -183,6 +193,8 @@ void Uart::end()
   nrfUart->PSELCTS = 0xFFFFFFFF;
 
   rxBuffer.clear();
+
+  setSerial(NULL);
 }
 
 void Uart::flush()
@@ -242,7 +254,7 @@ extern "C"
 {
   void UARTE0_UART0_IRQHandler()
   {
-    Serial.IrqHandler();
+    pSerial->IrqHandler();
   }
 }
 #elif defined(NRF51)
@@ -250,7 +262,7 @@ extern "C"
 {
   void UART0_IRQHandler()
   {
-    Serial.IrqHandler();
+    pSerial->IrqHandler();
   }
 }
 #endif
