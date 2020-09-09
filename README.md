@@ -1,8 +1,12 @@
 # Arduino Core for Nordic Semiconductor nRF5 based boards
 
-NOTE: This is forked from sandeepmistry/arduino-nRF5, but the BBC Microbit variant definitions uses different SPI/TWI
-ports in order to allow use of SPI pins in slave mode instead of master mode.  This allows communication with the
-Raspberry Pi, which doesn't appear to be configurable as an SPI slave device.
+NOTE: This is forked from sandeepmistry/arduino-nRF5, but this version allows one to redefine the serial port TX
+and RX pin definitions (you can technically do this with the original source repository, but the IRQ handler 
+doesn't handle a redefinition properly -- and thus no incoming serial communications occur with the redefined pins).
+
+This fork also has an added package.json manifest file for integration with the [PlatformIO](https://platformio.org/)
+embedded development platform -- a much better choice than the standard [Arduino IDE](https://www.arduino.cc/en/Main/Software) 
+because it includes hardware debugging capabilities and can be integrated into different IDEs.
 
 [![Build Status](https://travis-ci.org/sandeepmistry/arduino-nRF5.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-nRF5) [![OpenCollective](https://opencollective.com/arduino-nRF5/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/arduino-nRF5/sponsors/badge.svg)](#sponsors)
