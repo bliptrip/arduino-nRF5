@@ -22,7 +22,6 @@
 #include "wiring_private.h"
 
 static Uart *pSerial = NULL;//Allows us to replace the default serial device used for invoking IRQ handler.
-static Uart *pDefaultSerial = NULL;//Allows us to replace the default serial device used for invoking IRQ handler.
 
 static void setSerial(Uart* Uart) {
     pSerial = Uart;
@@ -254,7 +253,9 @@ extern "C"
 {
   void UARTE0_UART0_IRQHandler()
   {
-    pSerial->IrqHandler();
+    if( pSerial != NULL ) {
+        pSerial->IrqHandler();
+    }
   }
 }
 #elif defined(NRF51)
@@ -262,7 +263,9 @@ extern "C"
 {
   void UART0_IRQHandler()
   {
-    pSerial->IrqHandler();
+    if( pSerial != NULL ) {
+        pSerial->IrqHandler();
+    }
   }
 }
 #endif
